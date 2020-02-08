@@ -1,0 +1,13 @@
+{
+  "name": "typescript-bug",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "thomas shadwell <thomas.shadwell@googlemail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "typescript": "^3.7.5"
+  },
+  "scripts": {
+    "start": "yarn tsc && yarn node repl.js"
+  }
+}
